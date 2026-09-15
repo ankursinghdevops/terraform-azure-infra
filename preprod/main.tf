@@ -15,3 +15,8 @@ module "subnet" {
   x          = var.rgs
 
 }
+module "public_ip" {
+  depends_on = [module.resource_group]
+  source     = "../module/public_ip"
+  x          = var.rgs
+}

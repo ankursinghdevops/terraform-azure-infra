@@ -6,6 +6,9 @@ rgs = {
     address_space       = ["10.0.0.0/16"]
     subnet_name         = "dev_subnet"
     address_prefixes    = ["10.0.1.0/24"]
+    public_ip_name      = "dev_pubip"
+    allocation_method   = "Static"
+
   }
 
 }
