@@ -9,6 +9,7 @@ rgs = {
     public_ip_name      = "dev_pubip"
     allocation_method   = "Static"
 
+
   }
 
 }
